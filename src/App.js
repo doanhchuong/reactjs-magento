@@ -48,12 +48,12 @@ class App extends Component {
           "Access-Control-Allow-Headers": "*",
           // "Access-Control-Allow-Origin" : '10.0.0.202'
         },
-        proxy: {
-          host: '10.0.0.202',
-          port: 80,
-          changeOrigin: true,
-          secure: false
-        },
+        // proxy: {
+        //   host: '10.0.0.202',
+        //   port: 80,
+        //   changeOrigin: true,
+        //   secure: false
+        // },
         crossDomain: true,
         // withCredentials: true,
         // credentials: 'same-origin'
