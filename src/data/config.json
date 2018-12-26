@@ -1,0 +1,7 @@
+{
+    "username" : "admin",
+    "password": "admin123",
+    "baseUrl" : "http://10.0.0.202/m23ce/",
+    "baseUrlMedia" : "http://10.0.0.202/m23ce/pub/media/catalog/product"
+}
+  

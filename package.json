@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "http-proxy-middleware": "^0.19.1",
+    "prop-types": "^15.6.2",
+    "qs": "^6.6.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -21,5 +25,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "json-loader": "^0.5.7",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.7.0"
+  },
+  "proxy": "http://10.0.0.202:80"
 }

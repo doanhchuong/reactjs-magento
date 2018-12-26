@@ -30,3 +30,31 @@
     transform: rotate(360deg);
   }
 }
+.__table{
+  border: 1px solid grey
+}
+.form-control-borderless {
+border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+border: none;
+outline: none;
+box-shadow: none;
+}
+.custom__pagination{
+  float: right;
+  width: 38%;
+}
+.total{
+  float: left;
+}
+.input__page{
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.count__page{
+  margin-right: 10px;
+  font-size: 20px;
+}
